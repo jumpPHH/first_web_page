@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+#headtitle {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding-top: 30px; padding-bottom: 30px;
+}
+#middletitle {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding-top: 20px; padding-bottom: 20px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    padding-left: 200px;
+}
+#grid1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    border-bottom: 1px solid black;
+}
+#grid1 ol {
+    padding-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+#grid1 #content {
+    margin-top: 0px;
+    padding: 30px;
+    
+}
+#grid2 {
+    border-right: 1px solid black;
+
+}
+#nightbutton{
+    margin-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size : 30px;
+}
